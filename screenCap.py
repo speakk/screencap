@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 
 import os 
-import pyxhook 
+try:
+    import pyxhook 
+except ModuleNotFoundError as err:
+    print("This script has a dependency which requires python-xlib to be installed. Be sure to install python-xlib")
+    print(err)
+    exit()
+
 import subprocess
 import sys
 

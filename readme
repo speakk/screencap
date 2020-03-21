@@ -1,1 +1,4 @@
+Requires:
+python-xlib
+
 Usage: ./screenCap.py
