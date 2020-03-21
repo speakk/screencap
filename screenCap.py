@@ -12,7 +12,8 @@ import subprocess
 import sys
 
 if len(sys.argv) < 2:
-    print("No filename supplied. Usage: python screenCap.py [filename].  (omit the extension, .mkv will be added by the script)")
+    print("No filename supplied.")
+    print("Usage: python screenCap.py [filename].  (omit the extension, .mkv will be added by the script)")
     exit()
 
 fileName = sys.argv[1]
